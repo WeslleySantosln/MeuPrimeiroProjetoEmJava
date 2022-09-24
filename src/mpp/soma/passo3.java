@@ -53,9 +53,10 @@ public class passo3 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnContinuarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnContinuarActionPerformed
-     
-        passo2 = new passo2;
         
+        this.dispose();
+        passo2 = new passo2();
+        passo2.setVisible(true);
         
         
     }//GEN-LAST:event_btnContinuarActionPerformed
